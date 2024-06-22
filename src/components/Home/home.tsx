@@ -170,7 +170,7 @@ export default function Home() {
         </div>
         <div className={`absolute left-0 h-1 w-0 bg-white translate-y-[103px] z-50 ${isBar && 'w-full animate-timeRunning'} `} ></div>
       {/* Thumbnail */}
-        <div className={`top-[65%] bg-red-500 lg:top-[60%] xl:right-1 lg:-right-10 absolute flex flex-col gap-5`}>
+        <div className={`top-[65%] lg:top-[60%] xl:right-1 lg:-right-10 absolute flex flex-col gap-5`}>
         <div
             id="thumpnailList"
             className={`w-fit h-fit flex gap-7 z-10 /* same goes here also 👉*/ ${isNext && 'translate-x-[150px] animate-transformThumbnail'}`}
